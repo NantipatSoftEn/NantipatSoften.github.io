@@ -1,0 +1,18 @@
+.turn-1{
+    background-color: #000000;
+}
+.turn-2{
+    background-color: #0A0A0A;
+    color: #800080;
+    font-family: 'Chelsea Market';
+}
+.turn-3{
+    background-color: #141414;
+}
+.turn-4{
+    background-color: #1E1E1E;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
