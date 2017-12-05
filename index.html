@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
     <link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet">
     <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -19,11 +20,11 @@
       <div class="row turn-2">
         <div class="col-md-4">
           <div class="row mg">
-            <img class="img-thumbnail" src="images/arm.jpg" width="350" height="200" style="margin-left:50px;">
+            <img class="img-thumbnail shake-slow" src="images/arm.jpg" width="350" height="200" style="margin-left:50px;">
           </div>
 
           <div class="row mg">
-            <img src="images/pokemon/mijumaru.gif" alt="">
+            <img src="images/pokemon/mijumaru.gif" class="shake-chunk">
           </div>
         </div>
 
@@ -62,39 +63,47 @@
     </div>
     <div class="row turn-3">
       <center>
-        <svg class="progressHBP red noselect" data-progress="30" x="0px" y="0px" viewbox="0 0 776 628">
-          <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <text class="value" x="50%" y="61%">0%</text>
-          <text class="text" x="50%" y="122%">HARDWARE</text>
-        </svg>
-        <svg class="progressHBP yellow noselect" data-progress="85" x="0px" y="0px" viewbox="0 0 776 628">
-          <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <text class="value" x="50%" y="61%">0%</text>
-          <text class="text" x="50%" y="122%">SOFTWARE</text>
-        </svg>
-        <svg class="progressHBP green noselect" data-progress="70" x="0px" y="0px" viewbox="0 0 776 628">
-          <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <text class="value" x="50%" y="61%">0%</text>
-          <text class="text" x="50%" y="122%">PROGRAMING</text>
-        </svg>
-        <svg class="progressHBP blue noselect" data-progress="25" x="0px" y="0px" viewbox="0 0 776 628">
-          <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
-          <text class="value" x="50%" y="61%">0%</text>
-          <text class="text" x="50%" y="122%">NETWORK</text>
-          <div class="row mg">
-            <div class="col-md-6"><img src="images/achievement/acm.jpg" class="img-rounded" width="550" height="400"></div>
-            <div class="col-md-6"><img src="images/achievement/acm2.jpeg" class="img-rounded" width="550" height="400"></div>
-          </div>
-          <div class="row mg">
-            <div class="col-md-6"><img src="images/achievement/acm3.jpg" class="img-rounded" width="550" height="400"></div>
-            <div class="col-md-6"><img src="images/pokemon/lizadon.gif" class="img-rounded" width="550" height="400"></div>
-          </div>
+        <div class="shake-opacity">
+          <svg class="progressHBP red noselect" data-progress="30" x="0px" y="0px" viewbox="0 0 776 628">
+            <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <text class="value" x="50%" y="61%">0%</text>
+            <text class="text" x="50%" y="122%">HARDWARE</text>
+          </svg>
+        </div>
+        <div class="shake-opacity">
+          <svg class="progressHBP yellow noselect" data-progress="85" x="0px" y="0px" viewbox="0 0 776 628">
+            <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <text class="value" x="50%" y="61%">0%</text>
+            <text class="text" x="50%" y="122%">SOFTWARE</text>
+          </svg>
+        </div>
+        <div class="shake-slow">
+          <svg class="progressHBP green noselect" data-progress="70" x="0px" y="0px" viewbox="0 0 776 628">
+            <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <text class="value" x="50%" y="61%">0%</text>
+            <text class="text" x="50%" y="122%">PROGRAMING</text>
+          </svg>
+        </div>
+        <div class="shake-slow">
+          <svg class="progressHBP blue noselect" data-progress="25" x="0px" y="0px" viewbox="0 0 776 628">
+            <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+            <text class="value" x="50%" y="61%">0%</text>
+            <text class="text" x="50%" y="122%">NETWORK</text>
+          </svg>
+        </div>
+        <div class="row mg">
+          <div class="col-md-6 shake-chunk"><img src="images/achievement/acm.jpg" class="img-rounded" width="550" height="400"></div>
+          <div class="col-md-6 shake-chunk"><img src="images/achievement/acm2.jpeg" class="img-rounded" width="550" height="400"></div>
+        </div>
+        <div class="row mg">
+          <div class="col-md-6 shake-chunk"><img src="images/achievement/acm3.jpg" class="img-rounded" width="550" height="400"></div>
+          <div class="col-md-6 <shake-chunk></shake-chunk>"><img src="images/pokemon/lizadon.gif" class="img-rounded" width="550" height="400"></div>
+        </div>
 
-        </svg>
       </center>
     </div>
     <div class="row turn-4 mg">
@@ -110,12 +119,11 @@
     </div>
     <div class="row turn-5 mg">
       <div class="col-md-offset-2 col-md-10">
-        <img src="images/pokemon/pika.gif" alt="">
-        <img src="images/pokemon/pika.gif" alt="">
-        <img src="images/pokemon/pika.gif" alt="">
-        <img src="images/pokemon/pika.gif" alt="">
+        <img src="images/pokemon/pika.gif" class="shake-chunk">
+        <img src="images/pokemon/pika.gif" class="shake-chunk">
+        <img src="images/pokemon/pika.gif" class="shake-chunk">
+        <img src="images/pokemon/pika.gif" class="shake-chunk">
       </div>
-
     </div>
   </div>
 </div>
