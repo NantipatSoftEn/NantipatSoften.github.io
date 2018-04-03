@@ -1008,7 +1008,7 @@ i:before {
 /* Our Service Area css
 ============================================================================================ */
 .service_area {
-  background: url(../img/service-bg.jpg) no-repeat fixed center center;
+  background: url(../img/) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 2;
