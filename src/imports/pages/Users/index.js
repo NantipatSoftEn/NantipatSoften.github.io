@@ -24,18 +24,8 @@ class Users extends Component {
     render() {
         const {repos} = this.props
         console.log("sdsds",repos.data);
-
         const usersText = Utils.checkLanguage(UsersText);
-        const data = []
-        for (var i = 0; i < 10; i++) { 
-            data[i] ={
-                name: repos.data.name[i],
-                lastname:repos.data.lastname[i],
-                telephone:repos.data.telephone[i],
-                gender:repos.data.gender[i]
-            }
-        }
-        
+        const data = [{repos}]
 
         const columns = [{
             Header: 'Name',
