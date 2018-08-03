@@ -3,41 +3,40 @@ import React, { Fragment } from 'react'
 const information = [
   {
     title: 'Firstname',
-    answer: 'Kongpon'
+    answer: 'Nantipat'
   },
   {
     title: 'Lastname',
-    answer: 'Charanwattanakit'
+    answer: 'Tullwattana'
   },
   {
     title: 'Nickname',
-    answer: 'Jacky'
+    answer: 'Army'
   },
   {
     title: 'Birthname',
-    answer: 'กองภณ จรัญวัฒนากิจ'
+    answer: 'นันทิพัฒน์ ตุลวรรธนะ'
   },
   {
     title: 'Nationality',
     answer: 'Thai 🇹🇭'
   },
   {
-    title: 'Date of birth',
-    answer: '29 Jan 1998'
+    title: 'Age',
+    answer: '22'
   },
   {
     title: 'Language',
     answer: (
       <Fragment>
         {'Thai (Native) 🇹🇭'} <br />
-        {'English (Advance) 🇺🇸'} <br />
-        {'German (Elementary) 🇩🇪'} <br />
+        {'English (Elementary) 🇺🇸'} <br />
       </Fragment>
     )
   },
   {
     title: 'Education',
-    answer: 'Kasetsart University'
+    answer: 'Prince of Songkla University'
   }
 ]
 

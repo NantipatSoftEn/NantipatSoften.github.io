@@ -3,43 +3,36 @@ const skills = [
     icon: 'devicon-javascript-plain colored',
     variant: 'primary',
     language: 'Javascript',
-    frameworks: 'ES6, Vue.js, React, jQuery, Node, Jest',
-    level: '95'
+    frameworks: 'ES6,  React, Redux , Node, Express, Jest',
+    level: '65'
   },
   {
     icon: 'devicon-java-plain colored',
     variant: 'danger',
     language: 'Java',
-    frameworks: 'Android, Swing, Socket, IoT',
-    level: '90'
+    frameworks: 'Spring , Jastper ',
+    level: '20'
   },
   {
     icon: 'devicon-html5-plain colored',
     variant: 'success',
     language: 'HTML+CSS',
-    frameworks: 'Bootstrap, Element-UI, Sass, CSS3',
-    level: '85'
+    frameworks: 'Bootstrap, Element-UI, Sass, CSS',
+    level: '60'
   },
   {
-    icon: 'devicon-python-plain colored',
+    icon: 'devicon-c-plain colored',
     variant: 'warning',
-    language: 'Python',
-    frameworks: 'Arduino, Tkinter, Django',
+    language: 'C++',
+    frameworks: 'Compettive Programing , ESP8266',
     level: '70'
   },
   {
-    icon: 'devicon-ruby-plain colored',
+    icon: 'devicon-php-plain colored',
     variant: 'danger',
-    language: 'Ruby',
-    frameworks: 'Ruby on Rails',
+    language: 'PHP',
+    frameworks: 'Laravel , CodeIgniter',
     level: '50'
-  },
-  {
-    icon: 'devicon-swift-plain colored',
-    variant: 'info',
-    language: 'Swift',
-    frameworks: 'iOS, Storyboard',
-    level: '45'
   }
 ]
 
