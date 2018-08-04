@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Tags from '../../utils/tags'
 import { getImages } from '../../utils/functions'
 const sprintlogImages = getImages('projects/sprintlog', 2)
-const rpgengImages = getImages('projects/rpgeng', 2)
+const rpgengImages = getImages('projects/RPGENG', 2)
 const tondicImages = getImages('projects/Tondic', 1)
 const projects = [
   {
