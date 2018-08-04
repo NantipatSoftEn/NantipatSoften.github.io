@@ -46,12 +46,12 @@ const projects = [
         `
       },
       {
-        name: 'RPGENG',
+        name: 'Tondic',
         tags: [ Tags.react ],
         year: <Fragment> 3<sup>rd</sup> Year </Fragment>,
         images: tondicImages,
         description: `
-        Tondic is a storage catalog girls
+        Tondic is a storage catalog girls. True purpose, I test  CRUD laravel
         `
       }
     ]

@@ -7,8 +7,11 @@ const experiences = [
     alt: 'yeah',
     image: LmImg,
     info: [
-      'The largest young startup community in Thailand',
-      'June, 2018'
+      'Frontend',
+      'Laravel',
+      'React Redux',
+      'Express',
+      'August, 2017'
     ]
   }
 ]

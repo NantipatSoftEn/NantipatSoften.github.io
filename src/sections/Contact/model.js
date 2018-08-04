@@ -11,9 +11,9 @@ const contact = [
   },
   {
     name: 'Github',
-    href: 'https://github.com/kykungz/',
+    href: 'https://github.com/NantipatSoftEn/',
     icon: 'github',
-    tooltip: 'github.com/kykungz',
+    tooltip: 'github.com/NantipatSoftEn',
     color: 'white',
     bg: '#333',
     size: 'lg',
@@ -22,41 +22,19 @@ const contact = [
   },
   {
     name: 'Email',
-    href: 'mailto:jackykongpon@gmail.com?Subject=Hey, I found you on GitHub!',
+    href: 'mailto:keymasterviriya1150@gmail.com?Subject=Hey, I found you on GitHub!',
     icon: 'envelope',
-    tooltip: 'jackykongpon@gmail.com',
+    tooltip: 'keymasterviriya1150@gmail.com',
     color: 'white',
     bg: '#cb5343'
   },
   {
     name: 'Facebook',
-    href: 'https://facebook.com/kykungz/',
+    href: 'https://www.facebook.com/codegeassmasterzeronebreakout/',
     icon: 'facebook-official',
-    tooltip: 'Kongpon Charanwattanakit',
+    tooltip: 'อามมี่ ภาคห้ารับประทานโค้ดเป็นอาหาร',
     color: 'white',
     bg: '#3b5998',
-    rel: 'noopener noreferrer',
-    target: '_blank'
-  },
-  {
-    name: 'Skype',
-    href: '/',
-    icon: 'skype',
-    tooltip: 'kykungz@hotmail.com',
-    color: 'white',
-    bg: '#00aff0',
-    size: 'lg',
-    rel: 'noopener noreferrer',
-    target: '_blank'
-  },
-  {
-    name: 'Instagram',
-    href: 'https://instagram.com/jackykpc',
-    icon: 'instagram',
-    tooltip: 'jackykongpon@gmail.com',
-    color: 'white',
-    bg: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)',
-    size: 'lg',
     rel: 'noopener noreferrer',
     target: '_blank'
   }
