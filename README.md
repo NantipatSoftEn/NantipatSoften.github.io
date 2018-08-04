@@ -1,2 +1,2 @@
 # My Portfolio & Resume Website
-https://kykungz.github.io/
+https://nantipatsoften.github.io
