@@ -15,7 +15,8 @@ const Tags = {
   jQuery:  <Tag color='#ffffff' bg='#4682b4' key='jq' text='jQuery' />,
   node:    <Tag color='#a2e619' bg='#303030' key='no' text='Node' />,
   vue:     <Tag color='#39495c' bg='#73cf97' key='vu' text='Vue.js' />,
-  react:   <Tag color='#61d5fb' bg='#000000' key='re' text='React' />
+  react:   <Tag color='#61d5fb' bg='#000000' key='re' text='React' />,
+  laravel:   <Tag color='#ffffff' bg='#f55247' key='la' text='laravel' />
 }
 
 export default Tags
