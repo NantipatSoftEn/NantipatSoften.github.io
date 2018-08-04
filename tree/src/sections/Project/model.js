@@ -55,7 +55,7 @@ const projects = [
           name: 'Github',
           site: 'https://github.com/NantipatSoftEn/Tondic'
         },
-        tags: [ Tags.react ],
+        tags: [ Tags.laravel ],
         year: <Fragment> 3<sup>rd</sup> Year </Fragment>,
         images: tondicImages,
         description: `
