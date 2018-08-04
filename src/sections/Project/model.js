@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
 import Tags from '../../utils/tags'
 import { getImages } from '../../utils/functions'
-const whackamoleImages = getImages('projects/whackamole', 2)
 const sprintlogImages = getImages('projects/sprintlog', 2)
+const rpgengImages = getImages('projects/rpgeng', 2)
+const tondicImages = getImages('projects/Tondic', 1)
 const projects = [
   {
     name: 'Senior Project',
@@ -34,16 +35,23 @@ const projects = [
     name: 'College',
     list: [
       {
-        name: 'Whack A Mole',
-        tags: [ Tags.java, Tags.android ],
-        year: <Fragment> 1<sup>st</sup> Year </Fragment>,
-        images: whackamoleImages,
+        name: 'RPGENG',
+        tags: [ Tags.react ],
+        year: <Fragment> 2<sup>rd</sup> Year </Fragment>,
+        images: rpgengImages,
         description: `
-          The game's goal is to tap on the moles to gain points before the
-          time is running out. Each mole will have a unique ability,
-          for example, the red ones will deduct your points, as well as your
-          time. The blue ones give you not much pointes, but it increase your
-          time by +1. The orange ones give you a huge amount of points.
+        This project created for remember english vocabulary 
+        and I like anime log-horizon , 
+        I design UI with icon item game RPG.
+        `
+      },
+      {
+        name: 'RPGENG',
+        tags: [ Tags.react ],
+        year: <Fragment> 3<sup>rd</sup> Year </Fragment>,
+        images: tondicImages,
+        description: `
+        Tondic is a storage catalog girls
         `
       }
     ]
