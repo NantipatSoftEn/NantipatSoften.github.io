@@ -28,11 +28,11 @@ const ProjectInfo = ({ project }) => (
     <Name className='mr-2 d-inline'>{ project.name }</Name>
     <TagContainer className='d-inline-block'>{ project.tags }</TagContainer>
     {
-      project.collaborator &&
+      project.source &&
       <h6>
-        (Collaborator:&nbsp;
-        <a rel='noopener noreferrer' target='_blank' href={project.collaborator.site}>
-          {project.collaborator.name}
+        (Source:&nbsp;
+        <a rel='noopener noreferrer' target='_blank' href={project.source.site}>
+          {project.source.name}
         </a>
         )
       </h6>
