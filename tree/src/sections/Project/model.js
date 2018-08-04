@@ -36,6 +36,10 @@ const projects = [
     list: [
       {
         name: 'RPGENG',
+        source: {
+          name: 'Github',
+          site: 'https://github.com/NantipatSoftEn/RPGENG'
+        },
         tags: [ Tags.react ],
         year: <Fragment> 2<sup>rd</sup> Year </Fragment>,
         images: rpgengImages,
@@ -47,6 +51,10 @@ const projects = [
       },
       {
         name: 'Tondic',
+        source: {
+          name: 'Github',
+          site: 'https://github.com/NantipatSoftEn/Tondic'
+        },
         tags: [ Tags.react ],
         year: <Fragment> 3<sup>rd</sup> Year </Fragment>,
         images: tondicImages,
