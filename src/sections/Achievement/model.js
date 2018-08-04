@@ -2,20 +2,20 @@ import React, { Fragment } from 'react'
 
 import { getImages } from '../../utils/functions'
 
-const siriventureImages = getImages('siriventure', 2)
+const acm = getImages('acm', 1)
 
 const achievements = [
 
   {
     icon: 'certificate',
     variant: 'danger',
-    title: 'Join ACM-ICPC Southern 2016',
+    title: 'Joined ACM-ICPC Southern 2016',
     description: (
       <Fragment>
-        Siri Ventures x HUBBA Stadium Hackathon />
+        8 Problem  3 hours  70 team />
       </Fragment>
     ),
-    images: siriventureImages.map((image, i) =>
+    images: acm.map((image, i) =>
       <img key={i} className='img-fluid' src={image} alt={image} />
     )
   }
