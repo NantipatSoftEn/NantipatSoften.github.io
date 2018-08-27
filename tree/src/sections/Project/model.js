@@ -20,11 +20,10 @@ const projects = [
         description: (
           <Fragment>
             {`
-            I have idea create someting about Software Engineer 
-            and I discover research Use Case Points (UCP) 
-            so I create system send progress project for student 
-            with formula UCP estimate scope time in 1 semester .
-           However this project Some parts were not completed.
+            I have got some ideas, done a research and discovered Use Case Point formular
+            form which I have further  developed a system assisting student to update their 
+            progressing project to their professors the scope of 1 semester,  However this 
+            within system still under improvement.
             `}
           </Fragment>
         )
@@ -44,9 +43,9 @@ const projects = [
         year: <Fragment> 2<sup>rd</sup> Year </Fragment>,
         images: rpgengImages,
         description: `
-        This project created for remember english vocabulary 
-        and I like anime log-horizon , 
-        I design UI with icon item game RPG.
+        This project is created to memorize English vocabularies system.
+        I am passionate about anime Log Horizon; therefore, I have designed
+        UI with the animes icon.
         `
       },
       {
