@@ -4,6 +4,7 @@ import { getImages } from '../../utils/functions'
 const sprintlogImages = getImages('projects/sprintlog', 2)
 const rpgengImages = getImages('projects/RPGENG', 2)
 const tondicImages = getImages('projects/Tondic', 1)
+const tongtongImages = getImages('projects/tongtong', 2)
 const projects = [
   {
     name: 'Senior Project',
@@ -60,6 +61,19 @@ const projects = [
         description: `
         Tondic is a storage catalog girls. True purpose, I test  CRUD laravel
         `
+      },
+      {
+        name: 'TongTong Chicken-rice',
+        source: {
+          name: 'Link',
+          site: 'https://www.tongtong-chickenrice.com'
+        },
+        tags: [ Tags.node ],
+        year: <Fragment> 5<sup>th</sup> Year </Fragment>,
+        images: tongtongImages,
+        description: `
+        TongTong is a brand chicken-rice in Phuket. Which  there are many menu , 
+         `
       }
     ]
   }
