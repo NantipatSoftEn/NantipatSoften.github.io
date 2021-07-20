@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import backgroundImg from '../../assets/images/header-blur.png'
+import backgroundImg from '../../assets/images/header-blur2.jpg'
 
 const Jumbotron = styled.div`
   background-image: url(${backgroundImg});
-  background-size: auto 100%;
+  background-size: auto 300%;
   background-repeat: repeat-x;
 `
 
