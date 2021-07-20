@@ -26,7 +26,7 @@ const Header = () => (
   <Jumbotron className='jumbotron jumbotron-fluid'>
     <Title className='container'>
       <Name>Nantipat Army</Name>
-      <h4>Web Developer</h4>
+      <h4>Software Engineer / Web Developer</h4>
     </Title>
   </Jumbotron>
 )

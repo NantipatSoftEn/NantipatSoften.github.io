@@ -6,7 +6,7 @@ const Credit = () => (
     <FontAwesome name='code' /> with <FontAwesome name='heart' />
     {' '} by Nantipat Tullwattana
     <br />
-    <small>Last updated: 4<sup>th</sup> August 2018</small>
+    <small>Last updated: 20<sup>th</sup> July 2021</small>
   </p>
 )
 

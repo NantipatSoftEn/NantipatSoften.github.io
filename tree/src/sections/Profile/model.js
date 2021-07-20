@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const profile = {
   name: 'Nantipat Tullwattana',
-  position: 'Web Developer',
+  position: 'Software Engineer / Web Developer',
   info: (
     <Fragment>
       Hi, my name is <b><u>Army</u></b>.

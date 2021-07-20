@@ -22,9 +22,9 @@ const contact = [
   },
   {
     name: 'Email',
-    href: 'mailto:keymasterviriya1150@gmail.com?Subject=Hey, I found you on GitHub!',
+    href: 'mailto:nantipat.soften777@gmail.com?Subject=Hey, I found you on GitHub!',
     icon: 'envelope',
-    tooltip: 'keymasterviriya1150@gmail.com',
+    tooltip: 'nantipat.soften777@gmail.com',
     color: 'white',
     bg: '#cb5343'
   },
