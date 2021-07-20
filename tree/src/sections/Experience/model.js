@@ -1,4 +1,5 @@
 import LmImg from '../../assets/images/lianudom.jpg'
+import pun from '../../assets/images/pun.png'
 import xhub from '../../assets/images/xhub.png'
 
 const experiences = [
@@ -13,6 +14,18 @@ const experiences = [
       'React Redux',
       'Express',
       'August, 2017'
+    ]
+  },
+  {
+    position: 'Freelance Laravel Develope',
+    company: 'Pun Corporation',
+    alt: 'yeah',
+    image: pun,
+    info: [
+      'Frontend',
+      'Backend',
+      'Laravel',
+      'September, 2018'
     ]
   },
   {

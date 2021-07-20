@@ -57,7 +57,7 @@ const NavBar = () => (
           <NavItem> <FontAwesome name='user-circle-o' /> About </NavItem>
         </ScrollLink>
         <ScrollLink to='achievements' offset={-90}>
-          <NavItem> <FontAwesome name='star' /> Achievements </NavItem>
+          <NavItem> <FontAwesome name='star' /> Activity </NavItem>
         </ScrollLink>
         <ScrollLink to='projects' offset={-90}>
           <NavItem> <FontAwesome name='th' /> Projects </NavItem>

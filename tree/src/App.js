@@ -40,7 +40,7 @@ const About = withScrollSpy('about')(
 )
 
 const Achievements = withScrollSpy('achievements')(
-  <AchievementSection key='achievements' title='Achievements' icon='star' />
+  <AchievementSection key='achievements' title='Activity' icon='star' />
 )
 
 const Projects = withScrollSpy('projects')(

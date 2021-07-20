@@ -3,35 +3,35 @@ const skills = [
     icon: 'devicon-javascript-plain colored',
     variant: 'primary',
     language: 'Javascript',
-    frameworks: 'ES6,  React, Redux , Node, Express, Jest',
+    frameworks: 'ES6,  React, Redux , Node, Express, Jest,Angular, Vue, Next, Nuxt, Nest',
     level: '65'
   },
   {
     icon: 'devicon-java-plain colored',
     variant: 'danger',
     language: 'Java',
-    frameworks: 'Spring , Jastper ',
+    frameworks: 'Spring  boot',
     level: '20'
   },
   {
     icon: 'devicon-html5-plain colored',
     variant: 'success',
     language: 'HTML+CSS',
-    frameworks: 'Bootstrap, Element-UI, Sass, CSS',
-    level: '60'
+    frameworks: 'Basic CSS, Bootstrap',
+    level: '40'
   },
   {
     icon: 'devicon-c-plain colored',
     variant: 'warning',
     language: 'C++',
-    frameworks: 'Compettive Programing , ESP8266',
-    level: '70'
+    frameworks: 'Compettive Programing , ESP8266, C#, Basic Python',
+    level: '50'
   },
   {
     icon: 'devicon-php-plain colored',
     variant: 'danger',
     language: 'PHP',
-    frameworks: 'Laravel , CodeIgniter',
+    frameworks: 'Laravel',
     level: '50'
   }
 ]
