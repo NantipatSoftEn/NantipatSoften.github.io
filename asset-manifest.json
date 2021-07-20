@@ -1,11 +1,11 @@
 {
   "main.css": "static/css/main.34908ec2.css",
   "main.css.map": "static/css/main.34908ec2.css.map",
-  "main.js": "static/js/main.67788bbd.js",
-  "main.js.map": "static/js/main.67788bbd.js.map",
+  "main.js": "static/js/main.e61549ac.js",
+  "main.js.map": "static/js/main.e61549ac.js.map",
   "static\\media\\1.jpeg": "static/media/1.dea1bf7d.jpeg",
-  "static\\media\\1.jpg": "static/media/1.80bf9bb9.jpg",
-  "static\\media\\1.png": "static/media/1.cb00bec9.png",
+  "static\\media\\1.jpg": "static/media/1.0f7dc91f.jpg",
+  "static\\media\\1.png": "static/media/1.545cbbdf.png",
   "static\\media\\2.jpg": "static/media/2.f780666a.jpg",
   "static\\media\\2.png": "static/media/2.5659f0b6.png",
   "static\\media\\22643017_1674662525937347_1962785291_o.png": "static/media/22643017_1674662525937347_1962785291_o.a0b593b9.png",
@@ -22,8 +22,10 @@
   "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static\\media\\header-blur.png": "static/media/header-blur.fa593651.png",
+  "static\\media\\header-blur2.jpg": "static/media/header-blur2.0439d18d.jpg",
   "static\\media\\lianudom.jpg": "static/media/lianudom.4c420652.jpg",
   "static\\media\\portrait.png": "static/media/portrait.08581089.png",
+  "static\\media\\pun.png": "static/media/pun.3d8b6f49.png",
   "static\\media\\reversi.png": "static/media/reversi.e2cef217.png",
   "static\\media\\safari-pinned-tab.svg": "static/media/safari-pinned-tab.9af0e94f.svg"
 }
